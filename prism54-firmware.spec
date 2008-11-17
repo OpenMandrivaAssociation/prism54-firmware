@@ -11,7 +11,7 @@ Source0: http://prism54.org/firmware/%{version}.arm
 Source1: http://prism54.org/firmware/%{isl3877_version}.arm
 License: Maybe redistributable
 Group: System/Kernel and hardware
-Url: http://prism54.org/fullmac.html
+Url: http://wireless.kernel.org/en/users/Drivers/p54#firmware
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 
