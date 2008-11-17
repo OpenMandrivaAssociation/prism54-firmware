@@ -20,13 +20,13 @@ BuildArch: noarch
 Firmware for the Linux Kernel prism54 driver.
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/lib/firmware
-install %{SOURCE0} $RPM_BUILD_ROOT/lib/firmware/isl3890
-install %{SOURCE1} $RPM_BUILD_ROOT/lib/firmware/isl3877
+rm -rf %{buildroot}
+mkdir -p %{buildroot}/lib/firmware
+install %{SOURCE0} %{buildroot}/lib/firmware/isl3890
+install %{SOURCE1} %{buildroot}/lib/firmware/isl3877
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
