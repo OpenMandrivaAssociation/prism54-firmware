@@ -2,7 +2,7 @@
 %define version 1.0.4.3
 %define isl3877_version 1.1.0.0
 %define isl3886_version 2.7.0.0
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: Firmware for the Linux prism54 driver
 Name: %{name}
