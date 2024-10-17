@@ -10,7 +10,7 @@ Source1:	http://prism54.org/firmware/%{isl3877_version}.arm
 Source2:	http://daemonizer.de/prism54/prism54-fw/fw-softmac/lmac_%{isl3886_version}.arm
 License:	Maybe redistributable
 Group:		System/Kernel and hardware
-Url:		http://wireless.kernel.org/en/users/Drivers/p54#firmware
+Url:		https://wireless.kernel.org/en/users/Drivers/p54#firmware
 BuildArch:	noarch
 
 
